@@ -21,7 +21,7 @@ const function1 = function square(element) {
 const result = numbers.map(function1);
 console.log(result);
 
-const filterFunction = numbers.filter(x => x<2)
+const filterFunction = numbers.filter(x => x>5)
 console.log(filterFunction);
 
 const findFunction = numbers.find(x => x>8);
